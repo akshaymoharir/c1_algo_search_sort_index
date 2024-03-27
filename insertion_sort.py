@@ -1,10 +1,15 @@
+#/bin/python3
 
+# Description: This program is designed for understanding of insertion sorting.
+
+# Utility function to swap given 2 numbers 
 def swap(x,y):
     temp = x
     x = y
     y = temp
     return x,y
 
+# Function to sort given array in descending order
 def sort_descending(A):
     loop_count = 0
     for j in range(len(A)):
